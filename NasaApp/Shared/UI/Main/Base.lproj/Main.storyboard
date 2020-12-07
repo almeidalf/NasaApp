@@ -36,16 +36,30 @@
                                     <action selector="apodAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9H-ei-gpR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uW2-ZT-vcP">
+                                <rect key="frame" x="87" y="387" width="240" height="45"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <state key="normal" title="Asteroids">
+                                    <color key="titleColor" red="0.95634859800000005" green="0.98542791600000001" blue="0.96813613180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="asteroidsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2D-On-nZa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="cat-dU-QOE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1J7-2E-yNd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uW2-ZT-vcP" secondAttribute="trailing" constant="87" id="3Jy-Ay-D75"/>
                             <constraint firstItem="Lqf-YI-XoM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="8Cx-1Y-rgx"/>
                             <constraint firstItem="Lqf-YI-XoM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cds-L7-nyU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lqf-YI-XoM" secondAttribute="trailing" constant="87" id="DI4-9R-zVN"/>
+                            <constraint firstItem="uW2-ZT-vcP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="DSz-XH-Dmt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cat-dU-QOE" secondAttribute="trailing" constant="20" id="GAf-2H-9nP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eYs-xI-fBl" secondAttribute="bottom" constant="505" id="L0f-Zb-G7p"/>
+                            <constraint firstItem="uW2-ZT-vcP" firstAttribute="top" secondItem="eYs-xI-fBl" secondAttribute="bottom" constant="30" id="Pi0-mq-wMQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uW2-ZT-vcP" secondAttribute="bottom" constant="430" id="S4d-Uw-eyC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lqf-YI-XoM" secondAttribute="bottom" constant="646" id="bcc-mi-rtX"/>
                             <constraint firstItem="eYs-xI-fBl" firstAttribute="top" secondItem="cat-dU-QOE" secondAttribute="bottom" constant="8" id="fdN-J7-gND"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eYs-xI-fBl" secondAttribute="trailing" constant="87" id="ls1-tk-bS4"/>
@@ -57,6 +71,7 @@
                     <navigationItem key="navigationItem" id="Iys-F4-GqS"/>
                     <connections>
                         <outlet property="apodButton" destination="eYs-xI-fBl" id="hiM-44-MXV"/>
+                        <outlet property="asteroidsButton" destination="uW2-ZT-vcP" id="eMS-bo-0IP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

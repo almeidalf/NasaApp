@@ -26,6 +26,7 @@
 		1DB3982B257DBDCF007D6B0B /* RequestAsteroids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */; };
 		1DB3982F257DBF14007D6B0B /* AsteroidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */; };
 		1DB39830257DBF14007D6B0B /* AsteroidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */; };
+		1DB39833257DBFC1007D6B0B /* AsteroidsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB39832257DBFC1007D6B0B /* AsteroidsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAsteroids.swift; sourceTree = "<group>"; };
 		1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsViewController.swift; sourceTree = "<group>"; };
 		1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsteroidsViewController.xib; sourceTree = "<group>"; };
+		1DB39832257DBFC1007D6B0B /* AsteroidsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsViewModel.swift; sourceTree = "<group>"; };
 		615043CD1F8EAF51C097934D /* Pods-NasaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApp.debug.xcconfig"; path = "Target Support Files/Pods-NasaApp/Pods-NasaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B40FF8169B40A9830D9D976F /* Pods_NasaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA75A70A34736BC81BC12EB /* Pods-NasaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApp.release.xcconfig"; path = "Target Support Files/Pods-NasaApp/Pods-NasaApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			children = (
 				1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */,
 				1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */,
+				1DB39832257DBFC1007D6B0B /* AsteroidsViewModel.swift */,
 			);
 			path = Asteroids;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D2A2BD7257C492700394F98 /* MainViewController.swift in Sources */,
+				1DB39833257DBFC1007D6B0B /* AsteroidsViewModel.swift in Sources */,
 				1DB39803257D0E72007D6B0B /* Keys.swift in Sources */,
 				1D2A2BF4257C6C0400394F98 /* ApodViewModel.swift in Sources */,
 				1D2A2BDB257C497000394F98 /* Service.swift in Sources */,
@@ -500,6 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = DB27KXR495;
 				INFOPLIST_FILE = NasaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = DB27KXR495;
 				INFOPLIST_FILE = NasaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
