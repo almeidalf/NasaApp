@@ -23,6 +23,9 @@
 		1DB3981C257D7A14007D6B0B /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3981B257D7A14007D6B0B /* ErrorResponse.swift */; };
 		1DB39820257D7B75007D6B0B /* MessageAlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3981F257D7B75007D6B0B /* MessageAlertUtil.swift */; };
 		1DB39825257D8B9B007D6B0B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB39824257D8B9B007D6B0B /* Singleton.swift */; };
+		1DB3982B257DBDCF007D6B0B /* RequestAsteroids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */; };
+		1DB3982F257DBF14007D6B0B /* AsteroidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */; };
+		1DB39830257DBF14007D6B0B /* AsteroidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		1DB3981B257D7A14007D6B0B /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		1DB3981F257D7B75007D6B0B /* MessageAlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAlertUtil.swift; sourceTree = "<group>"; };
 		1DB39824257D8B9B007D6B0B /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAsteroids.swift; sourceTree = "<group>"; };
+		1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsViewController.swift; sourceTree = "<group>"; };
+		1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsteroidsViewController.xib; sourceTree = "<group>"; };
 		615043CD1F8EAF51C097934D /* Pods-NasaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApp.debug.xcconfig"; path = "Target Support Files/Pods-NasaApp/Pods-NasaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B40FF8169B40A9830D9D976F /* Pods_NasaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA75A70A34736BC81BC12EB /* Pods-NasaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApp.release.xcconfig"; path = "Target Support Files/Pods-NasaApp/Pods-NasaApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 		1D2A2BCF257C47AD00394F98 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DB39829257DBDC2007D6B0B /* Request */,
 				1D2A2BE9257C613800394F98 /* ApodResponse.swift */,
 				1DB3981B257D7A14007D6B0B /* ErrorResponse.swift */,
 			);
@@ -131,6 +138,7 @@
 		1D2A2BD1257C47C500394F98 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1DB39827257DB9BE007D6B0B /* Asteroids */,
 				1D2A2BEC257C615300394F98 /* Apod */,
 			);
 			path = Scenes;
@@ -179,6 +187,23 @@
 				1DB39824257D8B9B007D6B0B /* Singleton.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DB39827257DB9BE007D6B0B /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3982D257DBF14007D6B0B /* AsteroidsViewController.swift */,
+				1DB3982E257DBF14007D6B0B /* AsteroidsViewController.xib */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		1DB39829257DBDC2007D6B0B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		AC7AA0F644520BC9042D153A /* Pods */ = {
@@ -261,6 +286,7 @@
 				1D2A2BC2257C466C00394F98 /* Assets.xcassets in Resources */,
 				1D2A2BF0257C616900394F98 /* ApodViewController.xib in Resources */,
 				1D2A2BC0257C466900394F98 /* Main.storyboard in Resources */,
+				1DB39830257DBF14007D6B0B /* AsteroidsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +343,10 @@
 				1DB39803257D0E72007D6B0B /* Keys.swift in Sources */,
 				1D2A2BF4257C6C0400394F98 /* ApodViewModel.swift in Sources */,
 				1D2A2BDB257C497000394F98 /* Service.swift in Sources */,
+				1DB3982B257DBDCF007D6B0B /* RequestAsteroids.swift in Sources */,
 				1D2A2BEF257C616900394F98 /* ApodViewController.swift in Sources */,
 				1D2A2BB9257C466900394F98 /* AppDelegate.swift in Sources */,
+				1DB3982F257DBF14007D6B0B /* AsteroidsViewController.swift in Sources */,
 				1DB39825257D8B9B007D6B0B /* Singleton.swift in Sources */,
 				1DB3981C257D7A14007D6B0B /* ErrorResponse.swift in Sources */,
 				1D2A2BBB257C466900394F98 /* SceneDelegate.swift in Sources */,
