@@ -23,12 +23,11 @@ extension Service: TargetType {
 
   public var baseURL: URL {
     let urlString = "https://api.nasa.gov"
-    
     switch self {
     case .apod:
-        return URL(string: urlString + "?api_key=\(ServiceAPIConfig.API_KEY)")!
+        return URL(string: urlString)!
     case let .asteroids(datas):
-        return URL(string: urlString + "&api_key=\(ServiceAPIConfig.API_KEY)")!
+        return URL(string: urlString)!
     default:
         return URL(string: urlString)!
     }
@@ -39,8 +38,8 @@ extension Service: TargetType {
     switch self {
     case .apod:
         return "/planetary/apod"
-    case let .asteroids(datas):
-        return "/neo/rest/v1/feed?start_date=\(datas.dataInicial)&end_date=\(datas.dataFinal)"
+    case .asteroids:
+        return "/neo/rest/v1/feed"
     }
   }
 
@@ -58,9 +57,13 @@ extension Service: TargetType {
   public var task: Task {
     switch self {
     case .apod:
-        return .requestParameters(parameters: [:] , encoding: URLEncoding.default)
+        return .requestParameters(parameters: ["api_key": "\(ServiceAPIConfig.API_KEY)"] , encoding: URLEncoding.default)
     case let .asteroids(datas):
-        return .requestPlain
+        return .requestParameters(parameters: [
+            "start_date": "\(datas.dataInicial)",
+            "end_date": "\(datas.dataFinal)",
+            "api_key": "\(ServiceAPIConfig.API_KEY)"
+        ], encoding: URLEncoding.default)
     }
   }
 

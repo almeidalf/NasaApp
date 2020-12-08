@@ -9,6 +9,6 @@ import Foundation
 
 
 struct RequestAsteroids {
-    let dataInicial : Date
-    let dataFinal : Date
+    let dataInicial : String
+    let dataFinal : String
 }

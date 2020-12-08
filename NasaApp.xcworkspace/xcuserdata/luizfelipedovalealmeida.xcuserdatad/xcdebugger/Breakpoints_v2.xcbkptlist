@@ -36,34 +36,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B2EE1E8A-1407-44A6-B3A7-BD11B1372AC1 - fa29121b6ea9a31"
+                  uuid = "B2EE1E8A-1407-44A6-B3A7-BD11B1372AC1 - 18b3f6cd523527bb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.ApodViewModel.request() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.ApodViewModel.request(view: __C.UIView) -&gt; ()"
                   moduleName = "NasaApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Apod/ApodViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "1297">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1372">
                </Location>
                <Location
-                  uuid = "B2EE1E8A-1407-44A6-B3A7-BD11B1372AC1 - fa29121b6ea9a31"
+                  uuid = "B2EE1E8A-1407-44A6-B3A7-BD11B1372AC1 - 18b3f6cd523527bb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.ApodViewModel.request() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.ApodViewModel.request(view: __C.UIView) -&gt; ()"
                   moduleName = "NasaApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Apod/ApodViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "1919">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1994">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -146,6 +146,134 @@
             endingLineNumber = "34"
             landmarkName = "request(view:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09DCF1DE-3368-490A-94DC-9080743F18B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "request(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8206D4A3-73C1-4224-A930-D211372021DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "request(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC7AF806-4CF6-457D-A18F-19034B666BBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(view:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC7AF806-4CF6-457D-A18F-19034B666BBD - 4c7d785ba718c319"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.AsteroidsViewModel.request(view: __C.UIView) -&gt; ()"
+                  moduleName = "NasaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  uuid = "FC7AF806-4CF6-457D-A18F-19034B666BBD - 4c7d785ba718c319"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.AsteroidsViewModel.request(view: __C.UIView) -&gt; ()"
+                  moduleName = "NasaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "431">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8525AD61-5617-40C3-BEEF-954B6A6E9E71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "request(view:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8525AD61-5617-40C3-BEEF-954B6A6E9E71 - 4c7d785ba718c319"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.AsteroidsViewModel.request(view: __C.UIView) -&gt; ()"
+                  moduleName = "NasaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  uuid = "8525AD61-5617-40C3-BEEF-954B6A6E9E71 - 4c7d785ba718c319"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in NasaApp.AsteroidsViewModel.request(view: __C.UIView) -&gt; ()"
+                  moduleName = "NasaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipedovalealmeida/Documents/Projects/NasaApp/NasaApp/Scenes/Asteroids/AsteroidsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "431">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

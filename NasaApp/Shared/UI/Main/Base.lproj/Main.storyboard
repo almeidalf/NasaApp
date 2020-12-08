@@ -29,12 +29,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYs-xI-fBl">
                                 <rect key="frame" x="87" y="312" width="240" height="45"/>
                                 <color key="backgroundColor" name="AccentColor"/>
-                                <state key="normal" title="APOD">
+                                <state key="normal" title="Apod">
                                     <color key="titleColor" red="0.95634859800338745" green="0.98542791604995728" blue="0.96813613176345825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="apodAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9H-ei-gpR"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uW2-ZT-vcP">
                                 <rect key="frame" x="87" y="387" width="240" height="45"/>
@@ -42,9 +39,6 @@
                                 <state key="normal" title="Asteroids">
                                     <color key="titleColor" red="0.95634859800000005" green="0.98542791600000001" blue="0.96813613180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="asteroidsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2D-On-nZa"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
