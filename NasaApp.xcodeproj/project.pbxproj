@@ -125,10 +125,8 @@
 		1D2A2BCF257C47AD00394F98 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DC5F61E257F9CCE0006B259 /* Response */,
 				1DB39829257DBDC2007D6B0B /* Request */,
-				1D2A2BE9257C613800394F98 /* ApodResponse.swift */,
-				1DB3981B257D7A14007D6B0B /* ErrorResponse.swift */,
-				1D3692DF257ECF3F00929A3A /* AsteroidsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +208,16 @@
 				1DB3982A257DBDCF007D6B0B /* RequestAsteroids.swift */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		1DC5F61E257F9CCE0006B259 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1D2A2BE9257C613800394F98 /* ApodResponse.swift */,
+				1DB3981B257D7A14007D6B0B /* ErrorResponse.swift */,
+				1D3692DF257ECF3F00929A3A /* AsteroidsResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		AC7AA0F644520BC9042D153A /* Pods */ = {
