@@ -44,9 +44,8 @@ class MainViewController: UIViewController {
         asteroidsButton
             .rx
             .tap
-            .subscribe(onNext: { [weak self] _ in
-                let vc = AsteroidsViewController()
-                self?.navigationController?.pushViewController(vc, animated: true)
+            .subscribe(onNext: { _ in
+                MessageAlertUtil.errorAlert(title: "Em construção!", msg: "Fique calmo, ainda estamos trabalhando aqui. \n Logo tudo estará pronto para você", view: self)
             }).disposed(by: disposeBag)
     }
 }
